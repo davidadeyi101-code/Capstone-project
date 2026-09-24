@@ -10,7 +10,7 @@
 - Zhi Chef
 
 ## Objective
-Build a sentiment analysis system that classifies reviews as Positive, Neutral, or Negative.
+ Build a sentiment analyzer that classifies movie reviews as Positive or Negative and compare multiple machine learning models.
 
 ## Tools
 - Python
