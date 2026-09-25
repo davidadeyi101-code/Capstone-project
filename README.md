@@ -18,4 +18,4 @@
 - Scikit-learn
 - Google Colab / Jupyter Notebook
 - GitHub
-- Git.
+- Git
