@@ -1,4 +1,4 @@
-#Text Preprocessing and Vectorization
+
 ##Project Overview
 This project builds a Sentiment Analyzer that reads movie review and predicts if the sentiment is Positive or Negative. The workflow includes:
 	Loading and cleaning movie review text data
