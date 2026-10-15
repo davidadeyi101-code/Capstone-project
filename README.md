@@ -134,6 +134,22 @@ Model Performance:
 | F1-Score  | 88% |
 
 ---
+# Run it locally
+
+```bash
+pip install -r requirements.txt
+sentiment_analyzer.ipynb         # creates sentiment_model.pkl, vectorizer.pkl
+streamlit run Src/app.py
+```
+## Deploy to Streamlit Cloud
+
+1. Push this folder to a **public** GitHub repo. Include `.pkl files`,
+   `notebook/sentiment_model.pkl` and `notebook/vectorizer.pkl`, since the cloud does not train anything.
+2. Go to https://share.streamlit.io and sign in with GitHub.
+3. Click **Create app**, pick your repo, the branch, and `Src/app.py`.
+4. Click **Deploy** and wait about two minutes.
+
+You get a public URL you can put in your portfolio.
 
 ## Future Improvements
 
@@ -162,8 +178,3 @@ This project is licensed under the MIT License.
 
 ---
 
-## Live Demo
-
-Streamlit Application:
-
-[]
